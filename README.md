@@ -26,14 +26,6 @@ chmod +x build.sh
 ./build.sh
 ```
 
-#### Compile using Docker
-If you do not have Go installed locally, you can use the official `golang` Docker container to run the build script securely. We have provided a wrapper script in the root `bin` directory of the Gender-API project to make this effortless.
-
-From the project root, simply run:
-```bash
-./bin/build-cli-docker.sh
-```
-
 ## Configuration
 
 Before making any queries, you must provide your Gender-API authorization token. The CLI client checks for your API key in the following order of precedence:
